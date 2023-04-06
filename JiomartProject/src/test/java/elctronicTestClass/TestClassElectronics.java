@@ -53,8 +53,11 @@ System.out.println("Power Bank");
 @AfterMethod
 public void VerifyPowerBankPageOpen() {
 System.out.println("Product of Power Bank");
-}
-	
+
+System.out.println("Display");
+System.out.println("==========-====");
+}	
+
 @AfterClass
 public void ClosePowerBankPage() {
 System.out.println("Close");
